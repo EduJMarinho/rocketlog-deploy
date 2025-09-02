@@ -6,9 +6,10 @@
 * 📦 Tecnologias
 - Node.js
 - Express
-- JWT
-- Docker
-- Supertest
+- JWT (JSON Web Token)
+- Docker / Docker Compose
+- Supertest (testes de integração)
+- .env - para variáveis de ambiente
 -------------------------------
 * ⚙️ Instalação
 git clone https://github.com/EduJMarinho/rocketlog.git
@@ -21,6 +22,33 @@ npm install
 PORT=3333
 
 JWT_SECRET=sua_chave_secreta
+
+-------------------------------
+rocketlog/
+├── src/
+
+│   ├── controllers/
+
+│   ├── routes/
+
+│   ├── middlewares/
+
+│   ├── services/
+
+│   └── app.js
+
+├── tests/
+
+├── .env.example
+
+├── docker-compose.yml
+
+├── Dockerfile
+
+├── package.json
+
+└── README.md
+
 
 -------------------------------
 * ▶️ Executando
